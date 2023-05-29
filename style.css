@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;  
+}
+
+#root {
+    width: 100vw;
+    height: 100vh;
+    padding: 50px;
+    box-sizing: border-box;
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 50px;
+}
+
+
+#root .color {
+    border: 1px solid black;
+    background: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+ 
