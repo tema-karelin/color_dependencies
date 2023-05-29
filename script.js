@@ -1,5 +1,3 @@
-const MyClass = class { ... }
-
 function rgb2hex(rgb) {
     var rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
 
