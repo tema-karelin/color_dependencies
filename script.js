@@ -1,3 +1,5 @@
+const MyClass = class { ... }
+
 function rgb2hex(rgb) {
     var rgb = rgb.match(/^rgba?[\s+]?\([\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?,[\s+]?(\d+)[\s+]?/i);
 
@@ -8,7 +10,7 @@ function rgb2hex(rgb) {
 };
 
 // array of colors
-const colorsArr = ['#FF462D', '#FF7C3D', '#FFAE57', '#FFD46B', '#FF9A2D', '#FFD42D', '#939B62', '#B5D5C5', '#ABC270', '#025464', '#454545', '#B1D7B4', '#FFF9B0', '#D6E4E5', '#A3BB98', '#000000', '#FAC9AA', '#C9CAA8', '#FED8AA', '#E3A782', '#000000', '#FFDE59', '#FFBD5B', '#FF914B', '#000000', '#EFC4B3', '#E0A49A', '#EEB560', '#A6AEB2', '#B19CAE', '#000000', '#F18642', '#F4B76F', '#FFE1AE', '#6BA5C4', '#557B9A', '#E3E3E3', '#000000', '#C2D9CC', '#EBA2A2', '#EF9C5B', '#B2BA8A', '#E97D68', '#FFFFFF', '#FFFFFF']
+const colorsArr = ['#FF462D', '#FF7C3D', '#FFAE57', '#FFD46B', '#FF9A2D', '#FFD42D', '#939B62', '#B5D5C5', '#ABC270', '#025464', '#454545', '#B1D7B4', '#FFF9B0', '#D6E4E5', '#A3BB98', '#000000', '#FAC9AA', '#979C8A', '#C9CAA8', '#FED8AA', '#E3A782', '#000000', '#FFDE59', '#FFBD5B', '#FF914B', '#000000', '#EFC4B3', '#E0A49A', '#EEB560', '#A6AEB2', '#B19CAE', '#000000', '#F18642', '#F4B76F', '#FFE1AE', '#6BA5C4', '#557B9A', '#E3E3E3', '#000000', '#C2D9CC', '#EBA2A2', '#EF9C5B', '#B2BA8A', '#E97D68', '#FFFFFF']
 
 // root
 const doc = document.getElementById('root');
